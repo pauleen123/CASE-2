@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Case2</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+   <p>
+      <%= link_to 'Bookings', bookings_path %>  
+      <%= link_to 'Clients', clients_path %>
+      <%= link_to 'Rooms', rooms_path %>
+    </p>
+    <%= yield %>
+  </body>
+</html>

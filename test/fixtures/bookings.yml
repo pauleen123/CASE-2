@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  clientId: 1
+  roomId: 1
+  checkInDate: 2024-04-30
+  checkOutDate: 2024-04-30
+  totalAmount: 1
+
+two:
+  clientId: 1
+  roomId: 1
+  checkInDate: 2024-04-30
+  checkOutDate: 2024-04-30
+  totalAmount: 1
